@@ -5,7 +5,7 @@
 
 <!-- Typing Animation -->
 <p align="center">
-  <a href="https://github.com/your-username">
+  <a href="https://github.com/MuhammadIsmailTech">
     <img src="https://readme-typing-svg.herokuapp.com?size=22&color=00C7FF&center=true&vCenter=true&width=500&lines=Frontend+Developer;React+Enthusiast;Web+Designer;Data+Science+Learner;Open+to+Collaboration" />
   </a>
 </p>
@@ -81,8 +81,8 @@ I'm a **Frontend Developer** who loves building clean, modern, and responsive we
 
 </br>
 <div align="center">
-  <a href="https://github.com/Muhammadismail-gif">
-    <img src="https://github-readme-stats.vercel.app/api?username=Muhammadismail-gif&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Your GitHub Stats" style="margin: 10px;" />
+  <a href="https://github.com/MuhammadIsmailTech">
+    <img src="https://github-readme-stats.vercel.app/api?username=MuhammadIsmailTech&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Your GitHub Stats" style="margin: 10px;" />
   </a>
 
 </br>
@@ -91,8 +91,8 @@ I'm a **Frontend Developer** who loves building clean, modern, and responsive we
 
 </br>
   
-  <a href="https://github.com/Muhammadismail-gif">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Muhammadismail-gif&layout=compact&langs_count=8&theme=radical" alt="Top Languages" style="margin: 10px;" />
+  <a href="https://github.com/MuhammadIsmailTech">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MuhammadIsmailTech&layout=compact&langs_count=8&theme=radical" alt="Top Languages" style="margin: 10px;" />
   </a>
   
 </div>
