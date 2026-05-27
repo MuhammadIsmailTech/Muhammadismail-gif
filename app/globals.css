@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #081223;
+  --foreground: #e7f3ff;
+  --surface: #101f3b;
+  --surface-soft: #12264a;
+  --accent: #7dd3fc;
+  --accent-strong: #60a5fa;
+  --accent-alt: #c084fc;
+  --border: rgba(125, 211, 252, 0.18);
+  --text-muted: #9cb8d9;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top left, rgba(125, 211, 252, 0.16), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(192, 132, 252, 0.16), transparent 28%),
+    linear-gradient(135deg, #081223 0%, #101f3b 45%, #081223 100%);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+button,
+a,
+input,
+textarea {
+  transition: all 0.28s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 18, 35, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(61, 158, 255, 0.55);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.8);
+}
+
+::selection {
+  background-color: rgba(125, 211, 252, 0.35);
+  color: #081223;
+}
+
+::-moz-selection {
+  background-color: rgba(125, 211, 252, 0.35);
+  color: #081223;
+}
+
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 2px solid rgba(125, 211, 252, 0.85);
+  outline-offset: 2px;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(16, 31, 59, 0.78);
+    border: 1px solid rgba(125, 211, 252, 0.18);
+    backdrop-filter: blur(18px);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+  }
+
+  .btn-glow {
+    @apply inline-flex items-center justify-center gap-2 rounded-2xl font-semibold text-white shadow-glow;
+  }
+
+  .section-title {
+    @apply text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight;
+  }
+
+  .text-muted {
+    color: var(--text-muted);
+  }
+}
