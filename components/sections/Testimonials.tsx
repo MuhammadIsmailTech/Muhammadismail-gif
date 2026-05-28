@@ -327,7 +327,7 @@ export default function Testimonials() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://www.linkedin.com/in/taqih1/"
+              href="https://www.linkedin.com/in/is-muhammad-ismail-4b0960335/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-300 shadow-lg hover:shadow-xl"
@@ -336,7 +336,7 @@ export default function Testimonials() {
               Browse My LinkedIn
             </a>
             <a
-              href="https://www.linkedin.com/in/taqih1/"
+              href="https://wa.me/+923333823012"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 font-semibold rounded-lg transition-colors duration-300"
