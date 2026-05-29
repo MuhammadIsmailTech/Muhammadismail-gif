@@ -71,7 +71,7 @@ const Contact = () => {
     {
       icon: FiGithub,
       label: 'GitHub',
-      link: 'https://github.com/Muhammadismail-gif',
+      link: 'https://github.com/MuhammadIsmailTech',
       color: 'hover:text-gray-300',
     },
     {
