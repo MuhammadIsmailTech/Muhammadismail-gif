@@ -21,7 +21,22 @@ const Projects = () => {
       live: "https://my-js-projects-dun.vercel.app/",
       featured: true,
     },
-    
+      {
+      title: "React Projects",
+      subtitle: "Combine React Projects in Repository",
+      period: "2026",
+      description:
+        "Designed and developed a React Projects to showcase my skills, projects, and learning journey.",
+      features: [
+        "Responsive UI design using modern frontend tools",
+        "Clean layout to present projects.",
+      ],
+      technologies: ["React", "Next.js", "Tailwind CSS"],
+      github: "https://github.com/MuhammadIsmailTech/React-projects",
+      live: "https://ismail-react-projects.vercel.app/",
+      featured: true,
+    },
+
     {
       title: "C++ Programming Projects",
       subtitle: "University Work",
@@ -52,21 +67,6 @@ const Projects = () => {
       isCompanyProject: true,
     },
     {
-      title: "React Projects",
-      subtitle: "My First Portfolio",
-      period: "2026",
-      description:
-        "Designed and developed a React Projects to showcase my skills, projects, and learning journey.",
-      features: [
-        "Responsive UI design using modern frontend tools",
-        "Clean layout to present projects.",
-      ],
-      technologies: ["React", "Next.js", "Tailwind CSS"],
-      github: "https://github.com/MuhammadIsmailTech/React-projects",
-      live: "#",
-      featured: true,
-    },
-    {
       title: "Database Practice Project",
       subtitle: "SQL Learning",
       period: "2025",
@@ -80,6 +80,36 @@ const Projects = () => {
       github: "#",
       featured: false,
     },
+    {
+  title: "HTML Projects",
+  subtitle: "Collection of Pure HTML Projects",
+  period: "2024",
+  description:
+    "Created multiple HTML-only projects to practice webpage structure, layouts, and frontend fundamentals.",
+  features: [
+    "Built using only HTML",
+    "Simple and clean webpage structures",
+  ],
+  technologies: ["HTML"],
+  github: "https://github.com/MuhammadIsmailTech/My-HTML-Projects",
+  live: "https://my-html-projects-two.vercel.app/",
+  featured: true,
+  },
+  {
+  title: "CSS Projects",
+  subtitle: "Collection of Styling and UI Projects",
+  period: "2026",
+  description:
+    "Developed multiple CSS projects to practice styling, layouts, animations, and responsive design techniques.",
+  features: [
+    "Creative UI designs using pure CSS",
+    "Responsive layouts and modern styling practice",
+  ],
+  technologies: ["HTML", "CSS"],
+  github: "https://github.com/MuhammadIsmailTech/My-CSS-Project",
+  live: "https://my-css-project-lovat.vercel.app/",
+  featured: true,
+  },
   ];
 
   return (
