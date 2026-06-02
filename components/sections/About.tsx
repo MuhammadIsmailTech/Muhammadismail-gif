@@ -115,7 +115,7 @@ const About = () => {
                     BS Computer Science
                   </p>
                   <p className="text-gray-400 text-xs md:text-base">
-                    Sarhad University of Science & Information Technology Peshawer • CGPA-2 semester: 3.00/4.00
+                    Sarhad University of Science & Information Technology Peshawer • CGPA- 03 semester: 3.44/4.00
                   </p>
                 </div>
               </div>
