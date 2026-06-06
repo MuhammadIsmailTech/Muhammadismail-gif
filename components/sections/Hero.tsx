@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { TypeAnimation } from 'react-type-animation';
-import { FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiDownload, FiPhone } from 'react-icons/fi';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -117,6 +117,7 @@ const Hero = () => {
               { icon: FiGithub, href: 'https://github.com/MuhammadIsmailTech', label: 'GitHub' },
               { icon: FiLinkedin, href: 'https://www.linkedin.com/in/is-muhammad-ismail-4b0960335/', label: 'LinkedIn' },
               { icon: FiMail, href: 'mailto:mi.ismail000@gmail.com', label: 'Email' },
+              { icon: FiPhone, href: 'https://wa.me/+923333823012', label: 'Phone' },
             ].map((social, index) => (
               <motion.a
                 key={social.label}
