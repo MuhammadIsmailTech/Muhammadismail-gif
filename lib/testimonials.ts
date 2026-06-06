@@ -34,7 +34,7 @@ export const testimonials: Testimonial[] = [
   companyLogo: "/tech4edges.png",
   relationship: "Teacher",
   date: "May 2026",
-  text: "I had the opportunity to learn from Tatheer Hussain during my journey in web development and programming. His teaching style is clear, practical, and beginner-friendly, which helped me understand complex concepts in a simple way. He always encourages students to improve their problem-solving skills, build real-world projects, and stay consistent in learning. His guidance greatly improved my confidence in development and technical thinking.",
+  text: "Muhammad Ismail has been a dedicated and enthusiastic student throughout his learning journey in web development and programming. He consistently demonstrates a strong willingness to learn, adapt to new concepts, and improve his technical skills. His curiosity, commitment, and persistence in solving problems have helped him make steady progress in both theoretical and practical aspects of development. He actively participates in class discussions and projects, showing a genuine passion for technology and growth in the field.",
   linkedinUrl: "https://www.linkedin.com/in/tatheer-hussain/",
   featured: true,
   skills: ["Web Development", "Programming", "Problem Solving", "Mentorship"]
@@ -53,14 +53,14 @@ export const testimonials: Testimonial[] = [
 },
 {
   id: 4,
-  name: "Saba Junaid",
+  name: "Ansharah Naeem",
   title: "Virtual University Student",
   company: "",
-  companyLogo: "/vu.png",
+  companyLogo: "",
   relationship: "Colleague",
   date: "May 2026",
   text: "Working with Muhammad Ismail has always been a positive experience. He brings a strong learning attitude, stays committed to improving his technical skills, and actively contributes during teamwork and discussions. What impressed me most was his consistency and willingness to explore modern web technologies while maintaining a professional and cooperative approach in collaborative environments.",
-  linkedinUrl: "https://www.linkedin.com/in/saba-junaid-ab86b1313/",
+  linkedinUrl: "https://www.linkedin.com/in/ansharah-naeem-775060379/",
   skills: ["Team Collaboration", "Frontend Development", "Consistency", "Technical Growth"]
 },
   {
