@@ -21,7 +21,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold text-cyan-400 mb-4">Muhammad Ismail</h3>
             <p className="text-gray-400 text-base md:text-lg leading-relaxed">
-               Backend-focused Associate Software Engineer crafting efficient, scalable, and high-performance applications with NestJS, .NET, and modern technologies.
+               I enjoy building responsive websites, learning React, improving my programming skills, and contributing to practical software projects. My goal is to become a professional web developer and create scalable applications that solve real-world problems.
             </p>
           </div>
 
